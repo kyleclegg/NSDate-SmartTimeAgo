@@ -5,32 +5,26 @@ A category that simplifies displaying strings like "4 minutes ago" or "Uploaded 
 
 ## Format
 
-The default format is simply "X TIME_UNIT ago" and can be easily modified.
+The default format is simply "X [time unit] ago" and can be easily modified.
 
-- In future   - 0 seconds ago
-- < 1 minute  - 30 seconds ago
-- < 1 hour    - 30 minutes ago
-- < 24 hours  - 6 hours ago
-- < 30 days   - 3 weeks ago
-- < 1 year    - 6 months ago
-- else        - 6 years ago
+| Date          | String |
+| ------------- | ------------- |
+| In future     | 0 seconds ago |
+| < 1 minute    | 30 seconds ago |
+| < 1 hour      | 30 minutes ago |
+| < 24 hours    | 6 hours ago |
+| < 30 days     | 3 weeks ago |
+| < 1 year      | 6 months ago |
+| else          | 6 years ago |
 
 ## Installation
-
-**Cocoapods**
-
-<code>pod 'SmartTimeAgo'</code>
-
-**Manual Installation**
 
 Add <code>NSDate+SmartTimeAgo.{h,m}</code> to your project.
 
 ## Usage
 
-``` bash
-#import "NSDate+SmartTimeAgo.h"
-self.myLabel.text = [someObject.date smartTimeAgo]
-```
+* #import "NSDate+SmartTimeAgo.h"
+* self.myLabel.text = [someObject.date smartTimeAgo]
 
 ## Related
 

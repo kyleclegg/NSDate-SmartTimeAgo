@@ -28,8 +28,8 @@ Add <code>NSDate+SmartTimeAgo.{h,m}</code> to your project.
 
 ## Related
 
-- [DateTools](https://github.com/MatthewYork/DateTools) - Best NSDate category out there
-- [NSDate-Time-Ago](https://github.com/nikilster/NSDate-Time-Ago) - Facebook style time ago
+- <code>[DateTools](https://github.com/MatthewYork/DateTools)</code> - Best NSDate category out there
+- <code>[NSDate-Time-Ago](https://github.com/nikilster/NSDate-Time-Ago)</code> - Facebook style time ago
 
 ## Contact
 

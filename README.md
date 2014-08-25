@@ -23,13 +23,13 @@ Add <code>NSDate+SmartTimeAgo.{h,m}</code> to your project.
 
 ## Usage
 
-* #import "NSDate+SmartTimeAgo.h"
-* self.myLabel.text = [someObject.date smartTimeAgo]
+* <code>#import "NSDate+SmartTimeAgo.h"</code>
+* <code>self.myLabel.text = [someObject.date smartTimeAgo]</code>
 
 ## Related
 
-- <code>[DateTools](https://github.com/MatthewYork/DateTools)</code> - Best NSDate category out there
-- <code>[NSDate-Time-Ago](https://github.com/nikilster/NSDate-Time-Ago)</code> - Facebook style time ago
+- [DateTools](https://github.com/MatthewYork/DateTools) - Best NSDate category out there
+- [NSDate-Time-Ago](https://github.com/nikilster/NSDate-Time-Ago) - Facebook style time ago
 
 ## Contact
 

@@ -24,7 +24,7 @@ Add <code>NSDate+SmartTimeAgo.{h,m}</code> to your project.
 ## Usage
 
 * <code>#import "NSDate+SmartTimeAgo.h"</code>
-* <code>self.myLabel.text = [someObject.date smartTimeAgo]</code>
+* <code>self.myLabel.text = [someObject.date smartTimeAgo];</code>
 
 ## Related
 
